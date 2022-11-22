@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React ae f8 oi aaabbbb
+          Cài đặt và cấu hình prettier
         </a>
       </header>
     </div>
