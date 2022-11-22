@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import '~/App.css';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React ae f8 oi aaa
+          Learn React ae f8 oi aaabbbb
         </a>
       </header>
     </div>
