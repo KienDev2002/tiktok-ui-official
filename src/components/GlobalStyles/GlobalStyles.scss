@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
 :root {
     --primary: #f72c55;
-
+    --black: #000;
+    --text-color: #333;
     //default layout
     --default-layout-header-hight: 60px;
     --default-layout-width: 1150px;
@@ -23,4 +24,17 @@ body {
     font-size: 1.6rem; // 1.6rem phụ thuộc vào thằng cha nó là 62.5% html
     line-height: 1.5;
     text-rendering: optimizeSpeed; //tối ưu hóa khi kết xuất văn bản
+    color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
