@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
 :root {
     --primary: #f72c55;
+
+    //default layout
+    --default-layout-header-hight: 60px;
+    --default-layout-width: 1150px;
 }
 
 * {
