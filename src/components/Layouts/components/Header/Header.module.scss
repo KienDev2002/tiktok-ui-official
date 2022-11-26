@@ -43,6 +43,7 @@
         background-color: transparent;
         //color mouse
         caret-color: var(--primary);
+        font-family: ProximaNova, 'IBM Plex Sans', Arial, Tahoma, PingFangSC, sans-serif;
     }
 
     //khi khong co placeholder
@@ -111,6 +112,10 @@
     background-color: transparent;
     padding: 4px 12px;
     cursor: pointer;
+
+    & .uploadIcon {
+        margin-top: 8px;
+    }
 }
 
 .more-btn {

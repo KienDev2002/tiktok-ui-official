@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     font-size: 1.6rem; // 1.6rem phụ thuộc vào thằng cha nó là 62.5% html
     line-height: 1.5;
     text-rendering: optimizeSpeed; //tối ưu hóa khi kết xuất văn bản
@@ -39,6 +39,31 @@ input,
 a[href] {
     color: var(--text-color);
     text-decoration: none;
+}
+
+//fonts emmbeded
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Semibold.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova-Semibold.woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url('/assets/fonts/sofiapro-semibold.otf');
+    font-weight: 700;
 }
 
 // custom tippy tooltip
